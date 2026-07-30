@@ -16,20 +16,24 @@ WARNING:
 --1 Create Database 'DataWarehouse'
 
 USE master;
-
+GO
+	
 CREATE DATABASE DataWarehouse;
-
+GO
 
 --2.Create Schema
 
 -- Create Database 'DataWarehouse' 
 
 USE DataWarehouse;
-
+GO
+	
 –-Use GO separator to avoid batch error
 CREATE SCHEMA bronze;
 GO
+	
 CREATE SCHEMA silver;
 GO
+	
 CREATE SCHEMA gold;
 GO
